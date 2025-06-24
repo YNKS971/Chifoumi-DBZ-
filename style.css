@@ -1,0 +1,141 @@
+body{
+    background-image: url();
+}
+
+h1{
+    text-align: center;
+    font-size: x-large;
+}
+
+.vie{
+   
+   font-style: italic;
+ font-size: x-large;
+font-weight: bold;
+    border: solid gold
+}
+
+.phrase{
+border: solid pink; 
+text-align: center;
+}
+
+
+.containerSupreme{
+    display: flex;
+   
+    height: 100%;
+    width: 118rem;
+    border: solid orange
+}
+
+.containerGauche{
+    height:55rem;
+    width: 25rem;
+    border: solid green;
+    background-image:url(assets/Drip-Goku.jpg)
+}
+
+.MILLIEU{
+    border: solid blue;
+    width: 60REM;
+    background-image: url(assets/combat.gif);
+}
+
+.Eric{
+border: solid purple;
+width: 29rem;
+background-image: url(assets/yamcha-more-than-a-meme\ \(1\).png);
+
+
+
+}
+img{
+    height: 15rem;
+    width: 25rem;
+
+
+}
+
+.descriptionGOKU{
+    text-align: center;
+}
+
+.yamacha{
+    text-align: center;
+}
+
+
+
+.fight{
+    text-align: center;
+}
+
+.Attaques{
+    height: 10rem;
+    width: 20rem;
+}
+
+.TitreChifoumi{
+    display: flex;
+    height: 10rem;
+    align-items: center;
+   
+}
+
+.phrase{
+ font-style: italic;
+ font-size: x-large;
+font-weight: bold;
+}
+
+button{
+    height: 5rem;
+    width: 20rem;
+    margin: 1rem;
+    background-color:#D67711;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    border-radius: 1rem;
+}
+
+.explosion{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color:#FA0011 ;
+    font-size: xx-large;
+}
+
+.titre{
+display: flex;
+justify-content: center;
+background-image: url(assets/Dragon_Ball_29.webp);
+}
+
+.MILLIEU{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+   
+   
+   
+}
+
+.result{
+    border: solid cyan;
+    height: 6rem;
+    width: 8rem;
+}
+
+
+.explication{
+    font-size: x-large;
+   font-style: italic;
+   font-weight: bold;
+}
+/* .Ecran{
+    border: solid maroon;
+    height: 5rem;
+    width: 15REM;
+} */
+
