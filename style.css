@@ -1,6 +1,3 @@
-body{
-    background-image: url();
-}
 
 h1{
     text-align: center;
@@ -24,29 +21,34 @@ text-align: center;
 .containerSupreme{
     display: flex;
    
-    height: 100%;
-    width: 118rem;
+    
+    width: 97rem;
     border: solid orange
 }
 
 .containerGauche{
-    height:55rem;
-    width: 25rem;
+    
+    width: 28rem;
     border: solid green;
     background-image:url(assets/Drip-Goku.jpg)
 }
 
 .MILLIEU{
     border: solid blue;
-    width: 60REM;
+    width: 60rem;
     background-image: url(assets/combat.gif);
+    /* no repeat= pour que le gif ne se duplique pas. position pour centrer pcq sinon vegeta est rogné, */
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-size: cover;
 }
 
 .Eric{
 border: solid purple;
-width: 29rem;
+width: 28rem;
 background-image: url(assets/yamcha-more-than-a-meme\ \(1\).png);
-
+background-position: center;
 
 
 }
@@ -115,7 +117,7 @@ background-image: url(assets/Dragon_Ball_29.webp);
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+   
    
    
    
@@ -132,6 +134,12 @@ background-image: url(assets/Dragon_Ball_29.webp);
     font-size: x-large;
    font-style: italic;
    font-weight: bold;
+}
+
+
+.compteur{
+    display: flex;
+    justify-content: space-between;
 }
 /* .Ecran{
     border: solid maroon;
