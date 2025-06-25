@@ -9,12 +9,14 @@ h1{
    font-style: italic;
  font-size: x-large;
 font-weight: bold;
-    border: solid gold
+    
 }
 
 .phrase{
 
 text-align: center;
+font-size: medium;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 
@@ -23,7 +25,7 @@ text-align: center;
    flex-wrap: nowrap;
     
     width: 97rem;
-    border: solid orange
+    
 }
 
 .containerGauche{
@@ -34,7 +36,7 @@ text-align: center;
 }
 
 .MILLIEU{
-    border: solid blue;
+    /* border: solid blue; */
     width: 50rem;
     background-image: url(assets/combat.gif);
     /* no repeat= pour que le gif ne se duplique pas. position pour centrer pcq sinon vegeta est rogné, */
@@ -45,7 +47,7 @@ text-align: center;
 }
 
 .Eric{
-border: solid purple;
+/* border: solid purple; */
 width: 24rem;
 background-image: url(assets/yamcha-more-than-a-meme\ \(1\).png);
 background-position: center;
@@ -124,7 +126,7 @@ background-image: url(assets/Dragon_Ball_29.webp);
 }
 
 .LeResultat{
-  border: solid pink;
+  /* border: solid pink; */
     height: 6rem;
     width: 8rem;
     font-weight: bold;
@@ -185,7 +187,7 @@ button{
 }
 
 .Attaques{
-    height: 4rem;
+    height: 3rem;
     width: 8rem;
 }
 
@@ -202,7 +204,7 @@ button{
 
 
 .containerGauche{
-  width: 32%;
+  width: 30%;
   background-position: center;
 }
 
@@ -217,14 +219,14 @@ img{
 
 button{
     height: 3rem;
-    width: 80%;
+    width: 82%;
 }
 .regles{
-    height: 5%;
+    
 }
 
 .LeResultat{
-    height: 0%
+  
 }
 
 .Eric{
@@ -235,8 +237,8 @@ button{
 }
 
 .Attaques{
-    height: 4rem;
-    width: 8rem;
+    height: 2rem;
+    width: 7rem;
 }
 
 .TitreChifoumi{
@@ -246,3 +248,4 @@ button{
 .phrase{
   height:3rem
 }
+
