@@ -22,22 +22,22 @@ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 .containerSupreme{
     display: flex;
-   flex-wrap: nowrap;
+  
     
-    width: 97rem;
+    width: 140rem;
     
 }
 
 .containerGauche{
     
-    width: 23rem;
-    /* border: solid green; */
+    width: 26rem;
+    border: solid green;
     background-image:url(assets/Drip-Goku.jpg)
 }
 
 .MILLIEU{
-    /* border: solid blue; */
-    width: 50rem;
+    border: solid blue;
+    width: 65rem;
     background-image: url(assets/combat.gif);
     /* no repeat= pour que le gif ne se duplique pas. position pour centrer pcq sinon vegeta est rogné, */
     background-repeat: no-repeat;
@@ -47,8 +47,8 @@ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .Eric{
-/* border: solid purple; */
-width: 24rem;
+border: solid purple;
+width: 26rem;
 background-image: url(assets/yamcha-more-than-a-meme\ \(1\).png);
 background-position: center;
 
@@ -126,7 +126,7 @@ background-image: url(assets/Dragon_Ball_29.webp);
 }
 
 .LeResultat{
-  /* border: solid pink; */
+  border: solid pink;
     height: 6rem;
     width: 8rem;
     font-weight: bold;
@@ -145,7 +145,7 @@ background-image: url(assets/Dragon_Ball_29.webp);
     justify-content: space-between;
 }
 
-
+/* 
 @media screen and (max-width: 500px){
 .containerSupreme{
     width: 100%;
@@ -194,9 +194,9 @@ button{
 .TitreChifoumi{
     width: 17rem;
     
-}
+} */
 
-@media  (max-width: 400px){
+/* @media  (max-width: 400px){
 .containerSupreme{
     width: 100%;
 }
@@ -248,4 +248,4 @@ button{
 .phrase{
   height:3rem
 }
-
+ */ 

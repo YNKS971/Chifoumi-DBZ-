@@ -1,4 +1,8 @@
 
+// Version Ordi
+
+
+
 let compteurHumain = 0;
 let compteurIA = 0;
 let choixHumain = ""
@@ -38,19 +42,19 @@ function QuiGagne(ChoixHumain) {
         // console.log("la")
         console.log("Goku WIN!")
         document.getElementById("resultat").innerText = compteurIA
-        document.getElementById("resultat").innerText = "Goku gagne assez facilement."
+        document.getElementById("resultat").innerText = "Goku utilise Kamehameha. Yamcha attaque. Goku gagne sans surprise..."
         // GOKU WIN
     }
 
     else if (ChoixHumain == "Kamehameha" && OrdiChoix == "Supplier") {
         console.log("Goku epargne Yamcha..")
-        document.getElementById("resultat").innerText = "Goku epargne Yamcha."
+        document.getElementById("resultat").innerText = "Goku utilise Kamehameha,Yamcha le supplie...Goku l'epargne.Egalité."
         // Goku Egalité
     }
     // YAMACHA GAGNE!
     else if (ChoixHumain == "Kamehameha" && OrdiChoix == "RUSE") {
         console.log("Yamcha a gagné?")
-        document.getElementById("resultat").innerText = "Yamcha a gagné?"
+        document.getElementById("resultat").innerText = "Goku utilise Kamehameha.Yamcha le ruse et etonnament Goku se fait ruser??? Yamcha gagne"
     }
 
     // perd
@@ -58,12 +62,12 @@ function QuiGagne(ChoixHumain) {
     // Goku Avoir pitié: 
     if (ChoixHumain == "Avoirpitié.." && OrdiChoix == "Sokidan") {
         console.log("Goku esquive sa pauvre attaque et gagne le combat..")
-        document.getElementById("resultat").innerText = "Goku esquive sa pauvre attaque et gagne le combat."
+        document.getElementById("resultat").innerText = "Goku esquive LA PAUVRE attaque de yamcha...GOKU decide de l'achever.Goku gagne. "
         // Goku win
     }
     else if (ChoixHumain == "Avoirpitié.." && OrdiChoix == "Supplier") {
         console.log("Goku trouve pathétique Yamcha et pars.")
-        document.getElementById("resultat").innerText = "Goku trouve pathétique Yamcha et pars.Egalité."
+        document.getElementById("resultat").innerText = "Goku trouve pathétique Yamcha qui supplie et pars..."
         // Egalité
     }
     else if (ChoixHumain == "Avoirpitié.." && OrdiChoix == "RUSE") {
@@ -78,16 +82,16 @@ function QuiGagne(ChoixHumain) {
     if (ChoixHumain == "ArtsMartiaux" && OrdiChoix == "Sokidan") {
         console.log("Yamcha gagne.??")
         compteurHumain++
-        document.getElementById("resultat").innerText = "Yamcha gagne?"
+        document.getElementById("resultat").innerText = "Goku frappe yamcha,et yamcha utilise sokidan.Goku encaisse mais trouve trop faible Yamcha...Yamcha gagne."
     }
     else if (ChoixHumain == "ArtsMartiaux" && OrdiChoix == "Supplier") {
         console.log("Goku gagne")
-        document.getElementById("resultat").innerText = "goku gagne"
+        document.getElementById("resultat").innerText = "Goku veut frapper Yamcha,il le supplie,goku pars.Egalité."
         // goku
     }
     else if (ChoixHumain == "ArtsMartiaux" && OrdiChoix == "RUSE") {
         console.log("Goku se fait avoir????????")
-        document.getElementById("resultat").innerText = "Goku se fait avoir"
+        document.getElementById("resultat").innerText = "Goku VEUT frapper Yamcha,yamcha le ruse,GOKU se fait avoir????Yamcha gagne."
         // Yamcha gagne 
     }
 
@@ -97,7 +101,7 @@ function QuiGagne(ChoixHumain) {
     if (ChoixHumain == "Sudokan" && OrdiChoix == "Kamehameha") {
         console.log("Goku WIN!")
         compteurHumain++
-        document.getElementById("resultat").innerText = "Goku Win"
+        document.getElementById("resultat").innerText = ""
         // GOKU WIN
     }
 
